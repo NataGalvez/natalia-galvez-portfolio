@@ -1,0 +1,72 @@
+.contenedor {
+  padding-top: 40px;
+  display: flex;
+  position: absolute;
+}
+
+.burgeer-queen {
+  position: relative;
+  display: block;
+  margin: 20px;
+  width: 33%;
+  overflow: hidden;
+  background: white;
+}
+h2 {
+  text-align: center;
+}
+.btn {
+  text-align: center;
+}
+img {
+  width: 100%;
+  /* border: solid 2px black; */
+}
+.img-project {
+  text-align: center;
+}
+.data-lover {
+  position: relative;
+  display: block;
+  margin: 20px;
+  width: 33%;
+  overflow: hidden;
+  background: white;
+}
+
+.img-data {
+  text-align: center;
+  height: 100%;
+}
+.battle-zombie {
+  position: relative;
+  display: block;
+  margin: 20px;
+  width: 33%;
+  overflow: hidden;
+  background: white;
+}
+
+.text-hover:hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .2s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  width: 100%;
+  opacity:0.9;
+  cursor: pointer;
+}
+.text-hover {
+  padding-top: 10px;
+  padding-right: 100px;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .2s ease-in-out;
+  opacity:0;
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,32 @@
+.contenedor {
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+}
+.foto-perfil {
+  /* padding-left: 10px; */
+  width: 47.8%;
+  flex: 1 1 auto;
+}
+
+.description {
+  width: 100%;
+  text-align: justify;
+  flex: 1 1 auto;
+  padding: 50px;
+  padding-top: 10px;
+}
+p {
+  font-size: 25px;
+}
+h1 {
+  font-size: 30px;
+}
+img {
+  width: 100%;
+}
+@media (max-width: 1366px) {
+  .foto-perfil {
+    width: 39.8%;
+  }
+}
