@@ -1,0 +1,49 @@
+<div class="contenedor">
+  <div class="contact-me">
+    <h2>Contactame</h2>
+  </div>
+  <div class="form">
+    <form [formGroup]="sendForms" (ngSubmit)="enviar(sendForms.value)">
+      <div class="name-mail">
+        <div class="name inline">
+          <label for="name">Nombre</label>
+          <small>*</small>
+          <input type="text" class="input" formControlName="nombre" />
+        </div>
+        <div class="mail inline">
+          <label for="name">Correo</label>
+          <small>*</small>
+          <input type="email" class="input" formControlName="correo" />
+        </div>
+      </div>
+
+      <div class="phone-msg">
+        <div>
+          <div class="phone">
+            <label for="name">Teléfono</label>
+            <small>*</small>
+            <input type="number" class="input" formControlName="telefono" />
+          </div>
+        </div>
+        <div class="msg">
+          <div class="comment">
+            <label for="msg">Mensaje</label>
+            <small>*</small>
+            <textarea
+              name="msg-contact"
+              id=""
+              cols="30"
+              rows="6"
+              formControlName="msg"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="btn">
+        <button type="submit" class="btn-submit">
+          Enviar
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

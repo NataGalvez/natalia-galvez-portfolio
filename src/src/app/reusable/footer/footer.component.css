@@ -1,0 +1,83 @@
+.container {
+  display: flex; /*nuevo*/
+  position: fixed;
+  bottom: 0px;
+  width: 98%;
+  background: #4e3a5d;
+  flex-wrap: wrap; /*nuevo*/
+  padding: 30px;
+  /* margin-top: 200px; */
+}
+.derechos {
+  width: 49.85%; /*nuevo*/
+  color: rgba(255, 255, 255, 0.85);
+  flex: 1 1 auto; /*mantener*/
+}
+
+.social-networks {
+  width: 49.85%; /*nuevo*/
+  float: right;
+  margin-bottom: 0 !important;
+  margin-right: 0 !important;
+  flex: 1 1 auto; /*mantener*/
+}
+.icono {
+  margin: 10px;
+  margin-right: 15px;
+  float: right !important;
+  color: rgba(255, 255, 255, 0.85);
+}
+.mail-num {
+  text-align: right; /*nuevo*/
+  flex: 1 1 auto; /*mantener*/
+}
+.mail {
+  color: rgba(255, 255, 255, 0.85);
+
+  margin-right: 3px;
+}
+.mail-num a {
+  text-decoration: none;
+}
+.span {
+  color: rgba(255, 255, 255, 0.85);
+}
+.phone {
+  color: rgba(255, 255, 255, 0.85);
+  margin-right: 15px;
+}
+@media (max-width: 1366px) {
+  .container {
+    width: 96%;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    display: block;
+    padding-bottom: 40px;
+  }
+  .social-networks {
+    width: 90%; /*nuevo*/
+    float: none;
+    flex: none; /*mantener*/
+   text-align: center;
+  }
+  .mail-num {
+    width: 90%; /*nuevo*/
+    flex: none; /*mantener*/
+
+    font-size: 13px;;
+  }
+  .derechos {
+    width: 90%; /*nuevo*/
+    color: rgba(255, 255, 255, 0.85);
+    flex: none; /*mantener*/
+    text-align: center;
+  }
+  .icono {
+    margin: 5px;
+    margin-right: 5px;
+    float: none !important;
+    color: rgba(255, 255, 255, 0.85);
+  }
+}
