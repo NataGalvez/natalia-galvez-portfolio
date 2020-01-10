@@ -1,9 +1,13 @@
 .contenedor {
-  padding-top: 40px;
+ 
   display: flex;
-  position: absolute;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
 }
-
+.tm{
+  margin-top:40px;
+}
 .burgeer-queen {
   position: relative;
   display: block;
@@ -69,4 +73,22 @@ img {
   opacity:0;
   height: 100%;
   width: 100%;
+}
+@media (max-width: 600px) {
+  .contenedor{
+    display: block;
+    text-align: center;
+  }
+  .burgeer-queen{
+    width: 90%;
+  }
+  .data-lover{
+    width: 90%;
+  }
+  .battle-zombie{
+    width: 90%;
+  }
+  .tm{
+    padding-bottom: 150px ;
+  }
 }

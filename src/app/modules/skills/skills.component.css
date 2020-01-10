@@ -1,7 +1,12 @@
 .contenedor {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  padding-top: 20px;
+}
+.tm{
+  margin-top:40px;
 }
 .html {
   flex: 1 1 auto;
@@ -67,4 +72,26 @@
   padding-top: 24px;
   width: 100px;
   padding-right: 35px;
+}
+
+@media (max-width: 600px) {
+  .contenedor {
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .skill{
+    flex: none !important;
+    text-align: center;
+        display: block;
+        padding-left: 0px !important;
+  }
+  .zeplin img {
+    padding-right: 0px;
+  }
+  .lastsk{
+    padding-bottom: 200px;
+  }
 }

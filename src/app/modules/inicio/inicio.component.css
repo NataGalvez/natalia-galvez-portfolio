@@ -5,7 +5,7 @@
 }
 .foto-perfil {
   /* padding-left: 10px; */
-  width: 47.8%;
+  width: 44.8%;
   flex: 1 1 auto;
 }
 
@@ -27,6 +27,27 @@ img {
 }
 @media (max-width: 1366px) {
   .foto-perfil {
-    width: 39.8%;
+    width: 43%;
+  }
+}
+
+@media (max-width: 600px) {
+  .contenedor{
+    display: block;
+  }
+  .foto-perfil {
+    width: 100%;
+  }
+  .description {
+    
+    width: 80%;
+    text-align: justify;
+    flex: none;
+    padding: 40px;
+    padding-top: 10px;
+    margin-bottom: 200px;
+  }
+  p{
+    font-size: 16px;  
   }
 }

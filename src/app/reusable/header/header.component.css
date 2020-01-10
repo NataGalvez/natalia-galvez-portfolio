@@ -23,7 +23,7 @@ a {
   display: flex;
   height: 100px;
  
-  background: white;
+  background:#4e3a5d;
 }
 .logo{
   flex: 1 1 auto;
@@ -45,5 +45,32 @@ a {
   .logo img{
     /* margin-top: -20px; */
     width:27%;
+  }
+}
+
+@media(max-width:600px){
+  .header {
+    margin-top:-8px;
+    margin-right:-8px;
+    display: flex;
+    height: 120px;
+   
+    background:#4e3a5d;
+  }
+  .div-ul {
+    margin-top: -20px;
+    padding-right: 40px;;
+     
+  }
+  .header ul {
+    display: block;    
+  }
+  .header{
+    margin-bottom: 0px;
+  }
+  .logo img{
+    /* margin-top: -20px; */
+    padding-top: 10px;
+    width:80%;
   }
 }
